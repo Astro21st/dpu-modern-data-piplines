@@ -1,0 +1,1 @@
+select * from {{ sources('dpu', 'weathers')}} where temp > 35
